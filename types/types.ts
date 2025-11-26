@@ -56,7 +56,8 @@ export type Store = {
 
 export type StoreReq = {  
   name: string,
-  description: string,  
+  description?: string,  
+  address?: string,  
 }
 
 export type Item = {
